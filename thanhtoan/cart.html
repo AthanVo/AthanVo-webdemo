@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/trangchu.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <title>Trang chu</title>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <a href="../index.html">
+                <img src="../image/ivy.jpg" alt="">
+            </a>
+        </div>
+        <div class="menu">
+            <li><a href="">Giới thiệu</a></li>
+            <li><a href="">Sản phẩm</a>
+                <ul class="sub-menu">
+                    <li><a href="">Hàng mới về</a></li>
+                    <li><a href="">Hàng bán chạy </a></li>
+                    <li><a href="">Áo</a>
+                        <ul>
+                            <li><a href="">Áo sơ mi</a></li>
+                            <li><a href="">Áo thun</a></li>
+                            <li><a href="">Áo khoác</a></li>
+                            <li><a href="">Áo polo</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="">Quần</a>
+                        <ul>
+                            <li><a href="">Quần tây</a></li>
+                            <li><a href="">Quần jogger</a></li>
+                            <li><a href="">Quần jean</a></li>
+                            <li><a href="">Quần short</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li><a href="">Bộ sưu tập</a>
+                <ul class="sub-menu">
+                    <li><a href="">Mùa Xuân</a></li>
+                    <li><a href="">Mùa Hạ</a></li>
+                    <li><a href="">Mùa Thu</a></li>
+                    <li><a href="">Mùa Đông</a></li>
+                </ul>
+            </li>
+            <li><a href="">Sale</a>
+                <ul>
+                </ul>
+            </li>
+        </div>
+        <div class="others">
+            <li><input placeholder="Tìm kiếm"><i class="fas fa-search"></i></li>
+            <li><a class="fa fa-user" href="../dangnhap/dangnhap.html"></a></li>
+            <li><a class="fa fa-shopping-bag" href="../thanhtoan/cart.html"></a></li>
+        </div>
+    </header>
+    <!-- Cart -->
+    <section class="cart">
+        <div class="container">
+            <div class="cart-top-wrap">
+                <div class="cart-top">
+                    <div class="cart-top-cart cart-top-item">
+                        <i class="fas fa-shopping-cart "></i>
+                    </div>
+                    <div class="cart-top-address cart-top-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <div class="cart-top-payment cart-top-item">
+                        <i class="fas fa-money-check-alt "></i>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="cart-content row">
+                    <div class="cart-content-left ">
+                        <table>
+                            <tr>
+                                <th>Sản phẩm</th>
+                                <th>Tên sản phẩm</th>
+                                <th>Size</th>
+                                <th>SL</th>
+                                <th>Thành tiền</th>
+                                <th>Xóa</th>
+                            </tr>
+                            <tr>
+                                <td><img src="../image/aokhoac1.jpg" alt=""></td>
+                                <td>
+                                    <p>ÁO KHOÁC CHẦN BÔNG</p>
+                                </td>
+                                <td>
+                                    <p>L</p>
+                                </td>
+                                <td><input type="number" value="1" min="1"></td>
+                                <td>
+                                    <p>1,295,000<sup>đ</sup></p>
+                                </td>
+                                <td><span>X</span></td>
+                            </tr>
+                            <tr>
+                                <td><img src="../image/aopolo1.jpg" alt=""></td>
+                                <td>
+                                    <p>ÁO POLO PHỐI KẺ</p>
+                                </td>
+                                <td>
+                                    <p>L</p>
+                                </td>
+                                <td><input type="number" value="1" min="1"></td>
+                                <td>
+                                    <p>237,000đ<sup>đ</sup></p>
+                                </td>
+                                <td><span>X</span></td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="cart-content-right ">
+                        <table>
+                            <tr>
+                                <th colspan="2">TỔNG TIỀN GIỎ HÀNG</th>
+                            </tr>
+                            <tr>
+                                <td>TỔNG TIỀN SẢN PHẨM</td>
+                                <td>2</td>
+                            </tr>
+                            <tr>
+                                <td>TỔNG TIỀN HÀNG</td>
+                                <td>
+                                    <p>1,295,000<sup>đ</sup></p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>TẠM TÍNH</td>
+                                <td>
+                                    <p style="color: black;font-weight: bold;">1,295,000<sup>đ</sup></p>
+                                </td>
+                            </tr>
+                        </table>
+
+                        <div class="cart-content-right-text">
+                            <p>Bạn sẽ được miễn phí ship hàng khi đơn hàng của bạn tổng giá trị trên 1,000,000đ</p>
+                            <p style="color : red;font-weight: bold;">Mua thêm <span
+                                    style="font-size: 18px;">131,000đ</span>để được free ship</p>
+                        </div>
+                        <div class="cart-content-right-button">
+                            <a href="../index.html">
+                                <button>TIẾP TỤC MUA SẮM</button>
+                            </a>
+                            <a href="../thanhtoan/delivery.html">
+                                <button>THANH TOÁN</button>
+                            </a>
+                        </div>
+                        <div class="cart-content-right-dangnhap">
+                            <p>Tài khoản IVY</p><br>
+                            <p style="font-weight: bold;">Hãy<a href="../dangnhap/dangnhap.html">Đăng nhập</a>tài khoản của bạn để tích lũy điểm thành
+                                viên</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!--- Footer-->
+    <div id="footer">
+        <span>©IVYmoda All rights reserved</span>
+    </div>
+</body>
+<script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+<script src="../js/app.js"></script>
+<script>
+    $(document).ready(function () {
+        //alert('Ok');
+        $('.sub-menu').parent('li').addClass('has-child');
+        //Tìm tất cả li có sub menu thêm nó vào class has-child
+    });
+</script>
+
+</html>
